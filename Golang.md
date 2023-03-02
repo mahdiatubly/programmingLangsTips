@@ -9,19 +9,19 @@
 
 ### Defining Variables:
 
-    1. var a = "initial"
-    2. var b, c int = 1, 2
-    3. var d = true
-    4. var e int => e will be equal 0
-    5. f := "apple"
+    var a = "initial"
+    var b, c int = 1, 2
+    var d = true
+    var e int => e will be equal 0
+    f := "apple"
     
 ### Defining Pointers:
 
-    1. x *int
-    2. xPtr := new(int)
-    - To get the vqalue of a pointer:
+    x *int
+    xPtr := new(int)
+    // To get the vqalue of a pointer:
     *pointerName
-    - To a pointer to a var location:
+    // To a pointer to a var location:
     pointerName = &var
 
 ### Condetionnal Statements:
